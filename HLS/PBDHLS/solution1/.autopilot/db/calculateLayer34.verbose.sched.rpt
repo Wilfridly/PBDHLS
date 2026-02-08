@@ -1,0 +1,144 @@
+
+
+================================================================
+== Vitis HLS Report for 'calculateLayer34'
+================================================================
+* Date:           Thu Jan 15 17:49:02 2026
+
+* Version:        2020.2 (Build 3064766 on Wed Nov 18 09:12:45 MST 2020)
+* Project:        PBDHLS
+* Solution:       solution1 (Vivado IP Flow Target)
+* Product family: virtex7
+* Target device:  xc7vx485t-ffg1157-1
+
+
+================================================================
+== Performance Estimates
+================================================================
++ Timing: 
+    * Summary: 
+    +--------+----------+-----------+------------+
+    |  Clock |  Target  | Estimated | Uncertainty|
+    +--------+----------+-----------+------------+
+    |ap_clk  |  20.00 ns|  15.042 ns|     5.40 ns|
+    +--------+----------+-----------+------------+
+
++ Latency: 
+    * Summary: 
+    +---------+---------+----------+----------+--------+--------+---------+
+    |  Latency (cycles) |  Latency (absolute) |     Interval    | Pipeline|
+    |   min   |   max   |    min   |    max   |   min  |   max  |   Type  |
+    +---------+---------+----------+----------+--------+--------+---------+
+    |   187817|   187817|  3.756 ms|  3.756 ms|  187818|  187818|     none|
+    +---------+---------+----------+----------+--------+--------+---------+
+
+    + Detail: 
+        * Instance: 
+        N/A
+
+        * Loop: 
+        N/A
+
+============================================================
++ Verbose Summary: Synthesis Manager
+============================================================
+InlineROM: 1
+ExposeGlobal: 0
+============================================================
++ Verbose Summary: CDFG Model
+============================================================
+IsTopModel: 1
+ResetActiveHigh: 1
+IsCombinational: 0
+IsDatapathOnly: 0
+HasWiredReturn: 1
+HasMFsm: 0
+HasVarLatency: 1
+IsPipeline: 0
+IsRtlPipelined: 0
+IsInstanceOverlapped: 0
+IsDontTouch: 0
+HasImplIP: 0
+IsGatedGlobalClock: 0
+
+
+============================================================
++ Verbose Summary: Schedule
+============================================================
+* Number of FSM states : 4
+* Pipeline : 0
+* Dataflow Pipeline: 0
+
+* FSM state transitions: 
+1 --> 2 
+2 --> 3 
+3 --> 4 
+4 --> 
+
+* FSM state operations: 
+
+State 1 <SV = 0> <Delay = 1.00>
+ST_1 : Operation 5 [1/1] (1.00ns)   --->   "%Layer4_Neurons_CPU_read = read i64 @_ssdm_op_Read.s_axilite.i64, i64 %Layer4_Neurons_CPU" [../CoDesign/CoDesignSoft/src/funcLayers.h:108]   --->   Operation 5 'read' 'Layer4_Neurons_CPU_read' <Predicate = true> <Delay = 1.00> <CoreInst = "s_axilite">   --->   Core 114 's_axilite' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write'>
+ST_1 : Operation 6 [1/1] (1.00ns)   --->   "%Layer2_Neurons_CPU_read = read i64 @_ssdm_op_Read.s_axilite.i64, i64 %Layer2_Neurons_CPU" [../CoDesign/CoDesignSoft/src/funcLayers.h:108]   --->   Operation 6 'read' 'Layer2_Neurons_CPU_read' <Predicate = true> <Delay = 1.00> <CoreInst = "s_axilite">   --->   Core 114 's_axilite' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write'>
+ST_1 : Operation 7 [2/2] (0.00ns)   --->   "%call_ln137 = call void @calculateLayer3.301.302.1, i32 %gmem0, i64 %Layer2_Neurons_CPU_read, i32 %Layer2_Weights_CPU, i58 %table_exp_Z1_ap_ufixed_58_1_ap_q_mode_5_ap_o_mode_3_0_array_V, i26 %table_f_Z3_ap_ufixed_59_0_ap_q_mode_5_ap_o_mode_3_0_array_V, i42 %table_f_Z2_ap_ufixed_59_0_ap_q_mode_5_ap_o_mode_3_0_array_V, i32 %Layer3_Neurons_CPU_622_1, i32 %Layer3_Neurons_CPU_623_0, i32 %Layer3_Neurons_CPU_623_1, i32 %Layer3_Neurons_CPU_624_0, i32 %Layer3_Neurons_CPU_624_1" [../CoDesign/CoDesignSoft/src/funcLayers.h:137]   --->   Operation 7 'call' 'call_ln137' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+
+State 2 <SV = 1> <Delay = 0.00>
+ST_2 : Operation 8 [1/2] (0.00ns)   --->   "%call_ln137 = call void @calculateLayer3.301.302.1, i32 %gmem0, i64 %Layer2_Neurons_CPU_read, i32 %Layer2_Weights_CPU, i58 %table_exp_Z1_ap_ufixed_58_1_ap_q_mode_5_ap_o_mode_3_0_array_V, i26 %table_f_Z3_ap_ufixed_59_0_ap_q_mode_5_ap_o_mode_3_0_array_V, i42 %table_f_Z2_ap_ufixed_59_0_ap_q_mode_5_ap_o_mode_3_0_array_V, i32 %Layer3_Neurons_CPU_622_1, i32 %Layer3_Neurons_CPU_623_0, i32 %Layer3_Neurons_CPU_623_1, i32 %Layer3_Neurons_CPU_624_0, i32 %Layer3_Neurons_CPU_624_1" [../CoDesign/CoDesignSoft/src/funcLayers.h:137]   --->   Operation 8 'call' 'call_ln137' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+
+State 3 <SV = 2> <Delay = 14.6>
+ST_3 : Operation 9 [2/2] (14.6ns)   --->   "%call_ln138 = call void @calculateLayer4.1, i32 %gmem1, i64 %Layer4_Neurons_CPU_read, i32 %Layer3_Weights_CPU, i32 %Layer3_Neurons_CPU_622_1, i32 %Layer3_Neurons_CPU_623_0, i32 %Layer3_Neurons_CPU_623_1, i32 %Layer3_Neurons_CPU_624_0, i32 %Layer3_Neurons_CPU_624_1, i58 %table_exp_Z1_ap_ufixed_58_1_ap_q_mode_5_ap_o_mode_3_0_array_V, i26 %table_f_Z3_ap_ufixed_59_0_ap_q_mode_5_ap_o_mode_3_0_array_V, i42 %table_f_Z2_ap_ufixed_59_0_ap_q_mode_5_ap_o_mode_3_0_array_V" [../CoDesign/CoDesignSoft/src/funcLayers.h:138]   --->   Operation 9 'call' 'call_ln138' <Predicate = true> <Delay = 14.6> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+
+State 4 <SV = 3> <Delay = 0.00>
+ST_4 : Operation 10 [1/1] (0.00ns)   --->   "%spectopmodule_ln0 = spectopmodule void @_ssdm_op_SpecTopModule, void @empty_5"   --->   Operation 10 'spectopmodule' 'spectopmodule_ln0' <Predicate = true> <Delay = 0.00>
+ST_4 : Operation 11 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i32 0, void @empty_2, i32 0, i32 0, void @empty_7, i32 0, i32 0, void @empty_7, void @empty_7, void @empty_7, i32 0, i32 0, i32 0, i32 0, void @empty_7, void @empty_7"   --->   Operation 11 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_4 : Operation 12 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i32 %gmem0, void @empty_6, i32 0, i32 0, void @empty_7, i32 0, i32 1014, void @empty_8, void @empty_9, void @empty_7, i32 16, i32 16, i32 16, i32 16, void @empty_7, void @empty_7"   --->   Operation 12 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_4 : Operation 13 [1/1] (0.00ns)   --->   "%specbitsmap_ln0 = specbitsmap void @_ssdm_op_SpecBitsMap, i32 %gmem0"   --->   Operation 13 'specbitsmap' 'specbitsmap_ln0' <Predicate = true> <Delay = 0.00>
+ST_4 : Operation 14 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i32 %gmem1, void @empty_6, i32 0, i32 0, void @empty_7, i32 0, i32 100, void @empty_10, void @empty_9, void @empty_7, i32 16, i32 16, i32 16, i32 16, void @empty_7, void @empty_7"   --->   Operation 14 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_4 : Operation 15 [1/1] (0.00ns)   --->   "%specbitsmap_ln0 = specbitsmap void @_ssdm_op_SpecBitsMap, i32 %gmem1"   --->   Operation 15 'specbitsmap' 'specbitsmap_ln0' <Predicate = true> <Delay = 0.00>
+ST_4 : Operation 16 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i64 %Layer2_Neurons_CPU, void @empty_11, i32 0, i32 0, void @empty_7, i32 0, i32 0, void @empty_12, void @empty, void @empty_7, i32 0, i32 0, i32 0, i32 0, void @empty_7, void @empty_0"   --->   Operation 16 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_4 : Operation 17 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i64 %Layer2_Neurons_CPU, void @empty_1, i32 0, i32 0, void @empty_7, i32 0, i32 0, void @empty_7, void @empty_7, void @empty_7, i32 0, i32 0, i32 0, i32 0, void @empty_7, void @empty_0"   --->   Operation 17 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_4 : Operation 18 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i64 %Layer4_Neurons_CPU, void @empty_11, i32 0, i32 0, void @empty_7, i32 0, i32 0, void @empty_12, void @empty_3, void @empty_7, i32 0, i32 0, i32 0, i32 0, void @empty_7, void @empty_0"   --->   Operation 18 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_4 : Operation 19 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i64 %Layer4_Neurons_CPU, void @empty_1, i32 0, i32 0, void @empty_7, i32 0, i32 0, void @empty_7, void @empty_7, void @empty_7, i32 0, i32 0, i32 0, i32 0, void @empty_7, void @empty_0"   --->   Operation 19 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_4 : Operation 20 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i32 0, void @empty_11, i32 0, i32 0, void @empty_7, i32 0, i32 0, void @empty_12, void @empty_7, void @empty_7, i32 0, i32 0, i32 0, i32 0, void @empty_7, void @empty_7"   --->   Operation 20 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_4 : Operation 21 [1/2] (0.00ns)   --->   "%call_ln138 = call void @calculateLayer4.1, i32 %gmem1, i64 %Layer4_Neurons_CPU_read, i32 %Layer3_Weights_CPU, i32 %Layer3_Neurons_CPU_622_1, i32 %Layer3_Neurons_CPU_623_0, i32 %Layer3_Neurons_CPU_623_1, i32 %Layer3_Neurons_CPU_624_0, i32 %Layer3_Neurons_CPU_624_1, i58 %table_exp_Z1_ap_ufixed_58_1_ap_q_mode_5_ap_o_mode_3_0_array_V, i26 %table_f_Z3_ap_ufixed_59_0_ap_q_mode_5_ap_o_mode_3_0_array_V, i42 %table_f_Z2_ap_ufixed_59_0_ap_q_mode_5_ap_o_mode_3_0_array_V" [../CoDesign/CoDesignSoft/src/funcLayers.h:138]   --->   Operation 21 'call' 'call_ln138' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+ST_4 : Operation 22 [1/1] (0.00ns)   --->   "%ret_ln139 = ret" [../CoDesign/CoDesignSoft/src/funcLayers.h:139]   --->   Operation 22 'ret' 'ret_ln139' <Predicate = true> <Delay = 0.00>
+
+
+============================================================
++ Verbose Summary: Timing violations
+============================================================
+Target clock period: 20ns, clock uncertainty: 5.4ns.
+
+ <State 1>: 1ns
+The critical path consists of the following:
+	s_axi read on port 'Layer4_Neurons_CPU' (../CoDesign/CoDesignSoft/src/funcLayers.h:108) [32]  (1 ns)
+
+ <State 2>: 0ns
+The critical path consists of the following:
+
+ <State 3>: 14.6ns
+The critical path consists of the following:
+	'call' operation ('call_ln138', ../CoDesign/CoDesignSoft/src/funcLayers.h:138) to 'calculateLayer4.1' [35]  (14.6 ns)
+
+ <State 4>: 0ns
+The critical path consists of the following:
+
+
+============================================================
++ Verbose Summary: Binding
+============================================================
+N/A
+* FSMD analyzer results:
+  - Output states:
+ - Input state : 
+  - Chain level:
+	State 1
+	State 2
+	State 3
+	State 4
+
+
+============================================================
++ Verbose Summary: Datapath Resource usage 
+============================================================
+N/A

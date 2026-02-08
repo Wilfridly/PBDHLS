@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<autopilotfilemapping:AutoPilotFileMapping xmlns:autopilotfilemapping="www.autoesl.com/autopilotfilemapping">
+  <source>
+    <originFiles name="main.c" path="D:\M2_SESI\PBDHLS\CoDesign\CoDesignSoft\src\main.c"/>
+    <originFiles name="lw4.h" path="D:\M2_SESI\PBDHLS\CoDesign\CoDesignSoft\src\lw4.h"/>
+    <originFiles name="lw3.h" path="D:\M2_SESI\PBDHLS\CoDesign\CoDesignSoft\src\lw3.h"/>
+    <originFiles name="lw2.h" path="D:\M2_SESI\PBDHLS\CoDesign\CoDesignSoft\src\lw2.h"/>
+    <originFiles name="lw1.h" path="D:\M2_SESI\PBDHLS\CoDesign\CoDesignSoft\src\lw1.h"/>
+    <originFiles name="funcLayers.h" path="D:\M2_SESI\PBDHLS\CoDesign\CoDesignSoft\src\funcLayers.h"/>
+  </source>
+  <testbench>
+    <originFiles name="main.c" path="D:\M2_SESI\PBDHLS\CoDesign\CoDesignSoft\src\main.c"/>
+  </testbench>
+</autopilotfilemapping:AutoPilotFileMapping>

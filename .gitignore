@@ -1,0 +1,38 @@
+# ======================================================
+# Vivado (Xilinx / AMD)
+# ======================================================
+
+# Fichiers générés automatiquement
+.cache/
+.hw/
+.ip_user_files/
+.sim/
+.runs/
+.gen/
+.xil/
+
+# Logs & temporaires
+*.jou
+*.log
+*.str
+*.tmp
+
+# Sauvegardes Vivado
+*.backup
+*.bak
+
+# OS Windows
+Thumbs.db
+Desktop.ini
+
+# Editeurs
+.vscode/
+.idea/
+
+# ======================================================
+# À VERSIONNER (rappel)
+# ======================================================
+# *.xpr
+# sources_1/
+# constrs_1/
+# ip/ (si IP packagées dans le projet)
