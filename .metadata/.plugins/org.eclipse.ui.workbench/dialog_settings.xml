@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="FileSystemImportWizard">
+		<item key="WizardFileSystemResourceImportPage1.STORE_OVERWRITE_EXISTING_RESOURCES_ID" value="false"/>
+		<item key="WizardFileSystemResourceImportPage1.STORE_CREATE_CONTAINER_STRUCTURE_ID" value="false"/>
+		<list key="WizardFileSystemResourceImportPage1.STORE_SOURCE_NAMES_ID">
+			<item value="D:\MASTER_SESI\M2\PBDTemp\tmpvitis"/>
+			<item value="D:\MASTER_SESI\M2\PBDTemp\export_Ip\l3\drivers\l3_v1_0\src"/>
+			<item value="D:\MASTER_SESI\M2\PBDTemp\sourced"/>
+		</list>
+	</section>
+</section>

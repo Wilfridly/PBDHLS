@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xd:acceleratorMap xmlns:xd="http://www.xilinx.com/xidane" xd:functionName="l3" xd:componentRef="l3" xd:initiationInterval="852282" xd:clockPeriod="20.000" xd:sequential="true" xd:hostMachine="64" xd:reset="control">
+  <xd:controlReg xd:name="control" xd:interfaceRef="s_axi_control" xd:busTypeRef="axilite" xd:type="generic_axi_lite" xd:offset="0x0"/>
+  <xd:arg xd:name="*(Layer2_Neurons_CPU)" xd:originalName="Layer2_Neurons_CPU" xd:direction="inout" xd:interfaceRef="m_axi_gmem" xd:busTypeRef="aximm" xd:dataPack="true" xd:bitMapping="0:0" xd:dataWidth="1" xd:bufferDirection="in"/>
+  <xd:arg xd:name="*(Layer3_Neurons_CPU)" xd:originalName="Layer3_Neurons_CPU" xd:direction="inout" xd:interfaceRef="m_axi_gmem" xd:busTypeRef="aximm" xd:dataPack="true" xd:bitMapping="0:0" xd:dataWidth="1" xd:bufferDirection="out"/>
+  <xd:arg xd:name="Layer2_Neurons_CPU" xd:originalName="Layer2_Neurons_CPU" xd:direction="in" xd:interfaceRef="s_axi_control_r" xd:busTypeRef="axilite" xd:aximmInterfaceRef="m_axi_gmem" xd:dataWidth="64" xd:offset="0x10" xd:handshakeRef="ap_none"/>
+  <xd:arg xd:name="Layer3_Neurons_CPU" xd:originalName="Layer3_Neurons_CPU" xd:direction="in" xd:interfaceRef="s_axi_control_r" xd:busTypeRef="axilite" xd:aximmInterfaceRef="m_axi_gmem" xd:dataWidth="64" xd:offset="0x1C" xd:handshakeRef="ap_none"/>
+  <xd:latencyEstimates xd:best-case="786031" xd:worst-case="852281" xd:average-case="821031"/>
+  <xd:resourceEstimates xd:LUT="9819" xd:FF="5495" xd:BRAM="29" xd:DSP="34"/>
+</xd:acceleratorMap>

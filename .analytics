@@ -1,0 +1,204 @@
+timestamp=[2026-02-08 12:21:01], mode=WORKBENCH_START, duration=0:00:11.033, duration_ms=11033, data={}
+timestamp=[2026-02-08 12:21:05], mode=WORKBENCH_UI_INIT, duration=0:00:03.672, duration_ms=3672, data={editors_count=0, platform_editors_count=0, projects_count=0, platform_projects_count=0, active_platform_editor=false, projects=}
+timestamp=[2026-02-08 12:21:18], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:13.828, duration_ms=13828, data={}
+timestamp=[2026-02-08 12:30:25], mode=WORKBENCH_START, duration=0:00:05.939, duration_ms=5939, data={}
+timestamp=[2026-02-08 12:30:26], mode=WORKBENCH_UI_INIT, duration=0:00:00.360, duration_ms=360, data={editors_count=0, platform_editors_count=0, projects_count=3, platform_projects_count=0, active_platform_editor=false, projects=CoDesignSoft,CoDesignSoft_system,RemoteSystemsTempFiles}
+timestamp=[2026-02-08 12:30:26], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.081, duration_ms=81, data={}
+timestamp=[2026-02-08 12:32:55], mode=WORKBENCH_START, duration=0:00:06.110, duration_ms=6110, data={}
+timestamp=[2026-02-08 12:32:55], mode=WORKBENCH_UI_INIT, duration=0:00:00.342, duration_ms=342, data={editors_count=0, platform_editors_count=0, projects_count=3, platform_projects_count=0, active_platform_editor=false, projects=CoDesignSoft,CoDesignSoft_system,RemoteSystemsTempFiles}
+timestamp=[2026-02-08 12:32:56], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.081, duration_ms=81, data={}
+timestamp=[2026-02-08 12:35:48], mode=BUILD, duration=0:00:03.653, duration_ms=3653, data={name=CoDesignSoft, configuration=Debug, clean_build=false}
+timestamp=[2026-02-08 12:35:56], mode=BUILD, duration=0:00:07.683, duration_ms=7683, data={name=CoDesignSoft_system, configuration=Debug, clean_build=false}
+timestamp=[2026-02-08 12:36:14], mode=BUILD, duration=0:00:00.366, duration_ms=366, data={name=CoDesignSoft, configuration=Debug, clean_build=false}
+timestamp=[2026-02-08 12:36:20], mode=BUILD, duration=0:00:04.871, duration_ms=4871, data={name=CoDesignSoft_system, configuration=Debug, clean_build=false}
+timestamp=[2026-02-08 12:39:38], mode=WORKBENCH_START, duration=0:00:06.341, duration_ms=6341, data={}
+timestamp=[2026-02-08 12:39:38], mode=WORKBENCH_UI_INIT, duration=0:00:00.351, duration_ms=351, data={editors_count=0, platform_editors_count=0, projects_count=3, platform_projects_count=0, active_platform_editor=false, projects=CoDesignSoft,CoDesignSoft_system,RemoteSystemsTempFiles}
+timestamp=[2026-02-08 12:39:38], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.076, duration_ms=76, data={}
+timestamp=[2026-02-08 12:41:14], mode=WORKBENCH_START, duration=0:00:05.279, duration_ms=5279, data={}
+timestamp=[2026-02-08 12:41:14], mode=WORKBENCH_UI_INIT, duration=0:00:00.255, duration_ms=255, data={editors_count=0, platform_editors_count=0, projects_count=3, platform_projects_count=0, active_platform_editor=false, projects=CoDesignSoft,CoDesignSoft_system,RemoteSystemsTempFiles}
+timestamp=[2026-02-08 12:41:15], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.103, duration_ms=103, data={}
+timestamp=[2026-02-08 12:43:07], mode=APP_CREATION, duration=0:00:26.862, duration_ms=26862, data={name=CoDesignSoft2, project_type=sdk, os=standalone, processor=ps7_cortexa9, runtime=cpp, platform=design_1_wrapper, application_type=application}
+timestamp=[2026-02-08 12:43:41], mode=PLATFORM_GENERATION, duration=0:00:13.582, duration_ms=13582, data={name=design_1_wrapper}
+timestamp=[2026-02-08 12:43:43], mode=BUILD, duration=0:00:01.951, duration_ms=1951, data={name=CoDesignSoft2, configuration=Debug, clean_build=false}
+timestamp=[2026-02-08 12:45:28], mode=BUILD, duration=0:00:00.239, duration_ms=239, data={name=CoDesignSoft2, configuration=Debug, clean_build=true}
+timestamp=[2026-02-08 12:45:29], mode=BUILD, duration=0:00:01.253, duration_ms=1253, data={name=CoDesignSoft2, configuration=Debug, clean_build=false}
+timestamp=[2026-02-08 12:45:48], mode=BUILD, duration=0:00:00.490, duration_ms=490, data={name=CoDesignSoft2, configuration=Debug, clean_build=false}
+timestamp=[2026-02-08 12:45:50], mode=BUILD, duration=0:00:02.013, duration_ms=2013, data={name=CoDesignSoft2_system, configuration=Debug, clean_build=false}
+timestamp=[2026-02-08 12:47:26], mode=BUILD, duration=0:00:00.366, duration_ms=366, data={name=CoDesignSoft, configuration=Debug, clean_build=false}
+timestamp=[2026-02-08 12:47:31], mode=BUILD, duration=0:00:04.807, duration_ms=4807, data={name=CoDesignSoft_system, configuration=Debug, clean_build=false}
+timestamp=[2026-02-08 12:48:36], mode=BUILD, duration=0:00:00.366, duration_ms=366, data={name=CoDesignSoft, configuration=Debug, clean_build=false}
+timestamp=[2026-02-08 12:48:41], mode=BUILD, duration=0:00:04.818, duration_ms=4818, data={name=CoDesignSoft_system, configuration=Debug, clean_build=false}
+timestamp=[2026-02-08 12:49:31], mode=BUILD, duration=0:00:01.256, duration_ms=1256, data={name=CoDesignSoft, configuration=Release, clean_build=false}
+timestamp=[2026-02-08 12:49:33], mode=BUILD, duration=0:00:01.965, duration_ms=1965, data={name=CoDesignSoft_system, configuration=Release, clean_build=false}
+timestamp=[2026-02-08 12:53:19], mode=BUILD, duration=0:00:00.485, duration_ms=485, data={name=CoDesignSoft, configuration=Release, clean_build=false}
+timestamp=[2026-02-08 12:53:21], mode=BUILD, duration=0:00:01.954, duration_ms=1954, data={name=CoDesignSoft_system, configuration=Release, clean_build=false}
+timestamp=[2026-02-08 12:54:07], mode=BUILD, duration=0:00:00.486, duration_ms=486, data={name=CoDesignSoft, configuration=Release, clean_build=false}
+timestamp=[2026-02-08 12:55:05], mode=BUILD, duration=0:00:00.178, duration_ms=178, data={name=CoDesignSoft, configuration=Release, clean_build=true}
+timestamp=[2026-02-08 12:55:06], mode=BUILD, duration=0:00:01.376, duration_ms=1376, data={name=CoDesignSoft, configuration=Release, clean_build=false}
+timestamp=[2026-02-08 12:55:11], mode=BUILD, duration=0:00:04.821, duration_ms=4821, data={name=CoDesignSoft_system, configuration=Release, clean_build=false}
+timestamp=[2026-02-08 12:55:45], mode=BUILD, duration=0:00:00.178, duration_ms=178, data={name=CoDesignSoft, configuration=Debug, clean_build=true}
+timestamp=[2026-02-08 12:55:47], mode=BUILD, duration=0:00:01.437, duration_ms=1437, data={name=CoDesignSoft, configuration=Debug, clean_build=false}
+timestamp=[2026-02-08 12:56:48], mode=BUILD, duration=0:00:00.683, duration_ms=683, data={name=CoDesignSoft, configuration=Debug, clean_build=false}
+timestamp=[2026-02-08 12:57:03], mode=BUILD, duration=0:00:00.695, duration_ms=695, data={name=CoDesignSoft, configuration=Debug, clean_build=false}
+timestamp=[2026-02-08 12:58:27], mode=BUILD, duration=0:00:01.183, duration_ms=1183, data={name=CoDesignSoft, configuration=Debug, clean_build=false}
+timestamp=[2026-02-08 12:58:34], mode=BUILD, duration=0:00:00.349, duration_ms=349, data={name=CoDesignSoft, configuration=Debug, clean_build=false}
+timestamp=[2026-02-08 12:59:39], mode=BUILD, duration=0:00:01.194, duration_ms=1194, data={name=CoDesignSoft, configuration=Debug, clean_build=false}
+timestamp=[2026-02-08 13:36:35], mode=BUILD, duration=0:00:01.271, duration_ms=1271, data={name=CoDesignSoft, configuration=Debug, clean_build=false}
+timestamp=[2026-02-08 13:36:39], mode=BUILD, duration=0:00:00.365, duration_ms=365, data={name=CoDesignSoft, configuration=Debug, clean_build=false}
+timestamp=[2026-02-08 13:36:46], mode=BUILD, duration=0:00:00.351, duration_ms=351, data={name=CoDesignSoft, configuration=Debug, clean_build=false}
+timestamp=[2026-02-08 13:38:04], mode=BUILD, duration=0:00:01.254, duration_ms=1254, data={name=CoDesignSoft, configuration=Debug, clean_build=false}
+timestamp=[2026-02-08 13:38:09], mode=BUILD, duration=0:00:05.078, duration_ms=5078, data={name=CoDesignSoft_system, configuration=Debug, clean_build=false}
+timestamp=[2026-02-08 13:39:24], mode=BUILD, duration=0:00:01.250, duration_ms=1250, data={name=CoDesignSoft, configuration=Debug, clean_build=false}
+timestamp=[2026-02-08 13:39:29], mode=BUILD, duration=0:00:04.944, duration_ms=4944, data={name=CoDesignSoft_system, configuration=Debug, clean_build=false}
+timestamp=[2026-02-08 13:40:33], mode=BUILD, duration=0:00:01.256, duration_ms=1256, data={name=CoDesignSoft, configuration=Debug, clean_build=false}
+timestamp=[2026-02-08 13:40:38], mode=BUILD, duration=0:00:04.875, duration_ms=4875, data={name=CoDesignSoft_system, configuration=Debug, clean_build=false}
+timestamp=[2026-02-08 23:29:53], mode=WORKBENCH_START, duration=0:00:17.534, duration_ms=17534, data={}
+timestamp=[2026-02-08 23:29:56], mode=WORKBENCH_UI_INIT, duration=0:00:02.411, duration_ms=2411, data={editors_count=9, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=CoDesignSoft,CoDesignSoft_system,RemoteSystemsTempFiles,design_1_wrapper}
+timestamp=[2026-02-08 23:29:56], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:01.640, duration_ms=1640, data={}
+timestamp=[2026-02-08 23:32:18], mode=PLATFORM_GENERATION, duration=0:00:13.474, duration_ms=13474, data={name=design_1_wrapper}
+timestamp=[2026-02-08 23:32:18], mode=BUILD, duration=0:00:00.295, duration_ms=295, data={name=CoDesignSoft, configuration=Debug, clean_build=true}
+timestamp=[2026-02-08 23:32:25], mode=BUILD, duration=0:00:04.821, duration_ms=4821, data={name=CoDesignSoft, configuration=Debug, clean_build=false}
+timestamp=[2026-02-08 23:32:28], mode=BUILD, duration=0:00:02.521, duration_ms=2521, data={name=CoDesignSoft_system, configuration=Debug, clean_build=false}
+timestamp=[2026-02-08 23:33:34], mode=PLATFORM_GENERATION, duration=0:00:05.591, duration_ms=5591, data={name=design_1_wrapper}
+timestamp=[2026-02-08 23:33:34], mode=BUILD, duration=0:00:00.165, duration_ms=165, data={name=CoDesignSoft, configuration=Debug, clean_build=true}
+timestamp=[2026-02-08 23:33:48], mode=PLATFORM_GENERATION, duration=0:00:11.360, duration_ms=11360, data={name=design_1_wrapper}
+timestamp=[2026-02-08 23:33:49], mode=BUILD, duration=0:00:00.995, duration_ms=995, data={name=CoDesignSoft, configuration=Debug, clean_build=false}
+timestamp=[2026-02-08 23:37:36], mode=PLATFORM_GENERATION, duration=0:00:11.456, duration_ms=11456, data={name=design_1_wrapper}
+timestamp=[2026-02-08 23:37:36], mode=BUILD, duration=0:00:00.486, duration_ms=486, data={name=CoDesignSoft, configuration=Debug, clean_build=false}
+timestamp=[2026-02-08 23:37:39], mode=BUILD, duration=0:00:02.017, duration_ms=2017, data={name=CoDesignSoft_system, configuration=Debug, clean_build=false}
+timestamp=[2026-02-08 23:37:46], mode=PLATFORM_GENERATION, duration=0:00:03.217, duration_ms=3217, data={name=design_1_wrapper}
+timestamp=[2026-02-08 23:37:46], mode=BUILD, duration=0:00:00.495, duration_ms=495, data={name=CoDesignSoft, configuration=Debug, clean_build=false}
+timestamp=[2026-02-08 23:40:38], mode=PLATFORM_GENERATION, duration=0:00:03.158, duration_ms=3158, data={name=design_1_wrapper}
+timestamp=[2026-02-08 23:40:39], mode=BUILD, duration=0:00:00.509, duration_ms=509, data={name=CoDesignSoft, configuration=Debug, clean_build=false}
+timestamp=[2026-02-08 23:40:46], mode=PLATFORM_GENERATION, duration=0:00:01.685, duration_ms=1685, data={name=design_1_wrapper}
+timestamp=[2026-02-08 23:40:46], mode=BUILD, duration=0:00:00.170, duration_ms=170, data={name=CoDesignSoft, configuration=Debug, clean_build=true}
+timestamp=[2026-02-08 23:40:51], mode=PLATFORM_GENERATION, duration=0:00:03.213, duration_ms=3213, data={name=design_1_wrapper}
+timestamp=[2026-02-08 23:40:52], mode=BUILD, duration=0:00:01.064, duration_ms=1064, data={name=CoDesignSoft, configuration=Debug, clean_build=false}
+timestamp=[2026-02-08 23:42:19], mode=PLATFORM_GENERATION, duration=0:00:03.156, duration_ms=3156, data={name=design_1_wrapper}
+timestamp=[2026-02-08 23:42:20], mode=BUILD, duration=0:00:00.503, duration_ms=503, data={name=CoDesignSoft, configuration=Debug, clean_build=false}
+timestamp=[2026-02-08 23:42:50], mode=PLATFORM_GENERATION, duration=0:00:03.155, duration_ms=3155, data={name=design_1_wrapper}
+timestamp=[2026-02-08 23:42:51], mode=BUILD, duration=0:00:00.545, duration_ms=545, data={name=CoDesignSoft, configuration=Debug, clean_build=false}
+timestamp=[2026-02-08 23:44:24], mode=PLATFORM_GENERATION, duration=0:00:03.162, duration_ms=3162, data={name=design_1_wrapper}
+timestamp=[2026-02-08 23:44:25], mode=BUILD, duration=0:00:00.565, duration_ms=565, data={name=CoDesignSoft, configuration=Debug, clean_build=false}
+timestamp=[2026-02-08 23:48:27], mode=PLATFORM_GENERATION, duration=0:00:01.637, duration_ms=1637, data={name=design_1_wrapper}
+timestamp=[2026-02-08 23:48:27], mode=BUILD, duration=0:00:00.164, duration_ms=164, data={name=CoDesignSoft, configuration=Debug, clean_build=true}
+timestamp=[2026-02-08 23:51:50], mode=PLATFORM_GENERATION, duration=0:00:01.654, duration_ms=1654, data={name=design_1_wrapper}
+timestamp=[2026-02-08 23:51:50], mode=BUILD, duration=0:00:00.165, duration_ms=165, data={name=CoDesignSoft, configuration=Debug, clean_build=true}
+timestamp=[2026-02-08 23:51:54], mode=PLATFORM_GENERATION, duration=0:00:01.696, duration_ms=1696, data={name=design_1_wrapper}
+timestamp=[2026-02-08 23:56:07], mode=WORKBENCH_START, duration=0:00:06.862, duration_ms=6862, data={}
+timestamp=[2026-02-08 23:56:08], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.124, duration_ms=124, data={}
+timestamp=[2026-02-08 23:56:08], mode=WORKBENCH_UI_INIT, duration=0:00:00.827, duration_ms=827, data={editors_count=10, platform_editors_count=0, projects_count=3, platform_projects_count=0, active_platform_editor=false, projects=CoDesignSoft,CoDesignSoft_system,RemoteSystemsTempFiles}
+timestamp=[2026-02-08 23:59:33], mode=APP_CREATION, duration=0:00:15.411, duration_ms=15411, data={name=VitisPBD, project_type=sdk, os=standalone, processor=ps7_cortexa9, runtime=cpp, platform=design_1_wrapper, application_type=application}
+timestamp=[2026-02-09 00:01:50], mode=BUILD, duration=0:00:01.073, duration_ms=1073, data={name=CoDesignSoft, configuration=Debug, clean_build=false}
+timestamp=[2026-02-09 00:03:42], mode=PLATFORM_GENERATION, duration=0:00:03.682, duration_ms=3682, data={name=design_1_wrapper}
+timestamp=[2026-02-09 00:03:52], mode=PLATFORM_GENERATION, duration=0:00:03.164, duration_ms=3164, data={name=design_1_wrapper}
+timestamp=[2026-02-09 00:03:56], mode=BUILD, duration=0:00:00.550, duration_ms=550, data={name=CoDesignSoft, configuration=Debug, clean_build=false}
+timestamp=[2026-02-09 00:06:58], mode=APP_CREATION, duration=0:00:12.024, duration_ms=12024, data={name=CoDesignSoft, project_type=sdk, os=standalone, processor=ps7_cortexa9, runtime=cpp, platform=design_1_wrapper, application_type=application}
+timestamp=[2026-02-09 00:07:36], mode=PLATFORM_GENERATION, duration=0:00:03.623, duration_ms=3623, data={name=design_1_wrapper}
+timestamp=[2026-02-09 00:07:43], mode=PLATFORM_GENERATION, duration=0:00:03.157, duration_ms=3157, data={name=design_1_wrapper}
+timestamp=[2026-02-09 00:07:44], mode=BUILD, duration=0:00:01.002, duration_ms=1002, data={name=CoDesignSoft, configuration=Debug, clean_build=false}
+timestamp=[2026-02-09 00:07:51], mode=PLATFORM_GENERATION, duration=0:00:03.158, duration_ms=3158, data={name=design_1_wrapper}
+timestamp=[2026-02-09 00:07:51], mode=BUILD, duration=0:00:00.485, duration_ms=485, data={name=CoDesignSoft, configuration=Debug, clean_build=false}
+timestamp=[2026-02-09 00:07:53], mode=BUILD, duration=0:00:01.452, duration_ms=1452, data={name=CoDesignSoft_system, configuration=Debug, clean_build=false}
+timestamp=[2026-02-09 00:08:24], mode=PLATFORM_GENERATION, duration=0:00:03.220, duration_ms=3220, data={name=design_1_wrapper}
+timestamp=[2026-02-09 00:08:25], mode=BUILD, duration=0:00:00.428, duration_ms=428, data={name=CoDesignSoft, configuration=Debug, clean_build=false}
+timestamp=[2026-02-09 00:10:36], mode=PLATFORM_GENERATION, duration=0:00:03.158, duration_ms=3158, data={name=design_1_wrapper}
+timestamp=[2026-02-09 00:14:28], mode=PLATFORM_GENERATION, duration=0:00:01.705, duration_ms=1705, data={name=design_1_wrapper}
+timestamp=[2026-02-09 00:14:36], mode=PLATFORM_GENERATION, duration=0:00:03.164, duration_ms=3164, data={name=design_1_wrapper}
+timestamp=[2026-02-09 00:29:49], mode=APP_CREATION, duration=0:00:13.260, duration_ms=13260, data={name=CoDesignVitis, project_type=sdk, os=standalone, processor=ps7_cortexa9, runtime=cpp, platform=design_1_wrapper, application_type=application}
+timestamp=[2026-02-09 00:30:05], mode=PLATFORM_GENERATION, duration=0:00:03.735, duration_ms=3735, data={name=design_1_wrapper}
+timestamp=[2026-02-09 00:30:16], mode=PLATFORM_GENERATION, duration=0:00:01.637, duration_ms=1637, data={name=design_1_wrapper}
+timestamp=[2026-02-09 00:30:51], mode=PLATFORM_GENERATION, duration=0:00:03.159, duration_ms=3159, data={name=design_1_wrapper}
+timestamp=[2026-02-09 00:35:05], mode=PLATFORM_GENERATION, duration=0:00:01.697, duration_ms=1697, data={name=design_1_wrapper}
+timestamp=[2026-02-09 00:37:44], mode=PLATFORM_GENERATION, duration=0:00:02.529, duration_ms=2529, data={name=design_1_wrapper}
+timestamp=[2026-02-09 00:38:38], mode=PLATFORM_GENERATION, duration=0:00:02.390, duration_ms=2390, data={name=design_1_wrapper}
+timestamp=[2026-02-09 00:38:55], mode=PLATFORM_GENERATION, duration=0:00:01.688, duration_ms=1688, data={name=design_1_wrapper}
+timestamp=[2026-02-09 00:39:00], mode=PLATFORM_GENERATION, duration=0:00:02.395, duration_ms=2395, data={name=design_1_wrapper}
+timestamp=[2026-02-09 09:13:11], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:05.059, duration_ms=5059, data={}
+timestamp=[2026-02-09 09:13:12], mode=WORKBENCH_START, duration=0:00:23.739, duration_ms=23739, data={}
+timestamp=[2026-02-09 09:13:12], mode=WORKBENCH_UI_INIT, duration=0:00:00.337, duration_ms=337, data={editors_count=1, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=CoDesignVitis,CoDesignVitis_system,RemoteSystemsTempFiles,design_1_wrapper}
+timestamp=[2026-02-09 09:16:45], mode=APP_CREATION, duration=0:00:29.833, duration_ms=29833, data={name=CoDesignSoft, project_type=sdk, os=standalone, processor=ps7_cortexa9, runtime=cpp, platform=design_1_wrapper, application_type=application}
+timestamp=[2026-02-09 09:17:48], mode=PLATFORM_GENERATION, duration=0:00:06.069, duration_ms=6069, data={name=design_1_wrapper}
+timestamp=[2026-02-09 09:17:58], mode=PLATFORM_GENERATION, duration=0:00:03.227, duration_ms=3227, data={name=design_1_wrapper}
+timestamp=[2026-02-09 09:18:02], mode=BUILD, duration=0:00:03.668, duration_ms=3668, data={name=CoDesignSoft, configuration=Debug, clean_build=false}
+timestamp=[2026-02-09 09:18:55], mode=PLATFORM_GENERATION, duration=0:00:03.210, duration_ms=3210, data={name=design_1_wrapper}
+timestamp=[2026-02-09 09:19:57], mode=PLATFORM_GENERATION, duration=0:00:01.886, duration_ms=1886, data={name=design_1_wrapper}
+timestamp=[2026-02-09 09:20:03], mode=PLATFORM_GENERATION, duration=0:00:03.240, duration_ms=3240, data={name=design_1_wrapper}
+timestamp=[2026-02-09 09:21:05], mode=PLATFORM_GENERATION, duration=0:00:03.160, duration_ms=3160, data={name=design_1_wrapper}
+timestamp=[2026-02-09 09:22:24], mode=PLATFORM_GENERATION, duration=0:00:03.167, duration_ms=3167, data={name=design_1_wrapper}
+timestamp=[2026-02-09 09:22:25], mode=BUILD, duration=0:00:00.488, duration_ms=488, data={name=CoDesignSoft, configuration=Debug, clean_build=false}
+timestamp=[2026-02-09 09:22:27], mode=BUILD, duration=0:00:01.506, duration_ms=1506, data={name=CoDesignSoft_system, configuration=Debug, clean_build=false}
+timestamp=[2026-02-09 09:22:50], mode=PLATFORM_GENERATION, duration=0:00:03.292, duration_ms=3292, data={name=design_1_wrapper}
+timestamp=[2026-02-09 09:23:56], mode=PLATFORM_GENERATION, duration=0:00:01.673, duration_ms=1673, data={name=design_1_wrapper}
+timestamp=[2026-02-09 09:24:02], mode=PLATFORM_GENERATION, duration=0:00:03.294, duration_ms=3294, data={name=design_1_wrapper}
+timestamp=[2026-02-09 09:24:38], mode=PLATFORM_GENERATION, duration=0:00:03.287, duration_ms=3287, data={name=design_1_wrapper}
+timestamp=[2026-02-09 09:24:47], mode=PLATFORM_GENERATION, duration=0:00:03.222, duration_ms=3222, data={name=design_1_wrapper}
+timestamp=[2026-02-09 09:26:45], mode=PLATFORM_GENERATION, duration=0:00:03.218, duration_ms=3218, data={name=design_1_wrapper}
+timestamp=[2026-02-09 09:27:15], mode=PLATFORM_GENERATION, duration=0:00:03.277, duration_ms=3277, data={name=design_1_wrapper}
+timestamp=[2026-02-09 09:27:34], mode=PLATFORM_GENERATION, duration=0:00:03.232, duration_ms=3232, data={name=design_1_wrapper}
+timestamp=[2026-02-09 09:27:53], mode=PLATFORM_GENERATION, duration=0:00:01.698, duration_ms=1698, data={name=design_1_wrapper}
+timestamp=[2026-02-09 09:27:58], mode=PLATFORM_GENERATION, duration=0:00:01.631, duration_ms=1631, data={name=design_1_wrapper}
+timestamp=[2026-02-09 09:28:11], mode=PLATFORM_GENERATION, duration=0:00:03.231, duration_ms=3231, data={name=design_1_wrapper}
+timestamp=[2026-02-09 09:31:39], mode=PLATFORM_GENERATION, duration=0:00:03.352, duration_ms=3352, data={name=design_1_wrapper}
+timestamp=[2026-02-09 09:32:58], mode=PLATFORM_GENERATION, duration=0:00:01.561, duration_ms=1561, data={name=design_1_wrapper}
+timestamp=[2026-02-09 09:33:03], mode=PLATFORM_GENERATION, duration=0:00:02.146, duration_ms=2146, data={name=design_1_wrapper}
+timestamp=[2026-02-09 09:34:23], mode=WORKBENCH_START, duration=0:00:06.550, duration_ms=6550, data={}
+timestamp=[2026-02-09 09:34:23], mode=WORKBENCH_UI_INIT, duration=0:00:00.365, duration_ms=365, data={editors_count=0, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=CoDesignSoft,CoDesignSoft_system,RemoteSystemsTempFiles,design_1_wrapper}
+timestamp=[2026-02-09 09:34:24], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.127, duration_ms=127, data={}
+timestamp=[2026-02-09 09:36:22], mode=APP_CREATION, duration=0:00:15.388, duration_ms=15388, data={name=CodesignSoft, project_type=sdk, os=standalone, processor=ps7_cortexa9, runtime=cpp, platform=design_1_wrapper, application_type=application}
+timestamp=[2026-02-09 09:36:32], mode=PLATFORM_GENERATION, duration=0:00:03.998, duration_ms=3998, data={name=design_1_wrapper}
+timestamp=[2026-02-09 09:38:58], mode=APP_CREATION, duration=0:00:13.179, duration_ms=13179, data={name=CoDesignSoft, project_type=sdk, os=standalone, processor=ps7_cortexa9, runtime=cpp, platform=design1_adrien, application_type=application}
+timestamp=[2026-02-09 09:39:40], mode=PLATFORM_GENERATION, duration=0:00:17.531, duration_ms=17531, data={name=design1_adrien}
+timestamp=[2026-02-09 09:51:11], mode=APP_CREATION, duration=0:00:13.313, duration_ms=13313, data={name=CodesignSoft, project_type=sdk, os=standalone, processor=ps7_cortexa9, runtime=cpp, platform=design_1_wrapper, application_type=application}
+timestamp=[2026-02-09 09:51:19], mode=PLATFORM_GENERATION, duration=0:00:04.178, duration_ms=4178, data={name=design_1_wrapper}
+timestamp=[2026-02-09 09:52:24], mode=APP_CREATION, duration=0:00:12.276, duration_ms=12276, data={name=CodesignSoft, project_type=sdk, os=standalone, processor=ps7_cortexa9, runtime=cpp, platform=design1_adrien, application_type=application}
+timestamp=[2026-02-09 09:53:32], mode=PLATFORM_GENERATION, duration=0:00:16.432, duration_ms=16432, data={name=design1_adrien}
+timestamp=[2026-02-09 09:53:33], mode=BUILD, duration=0:00:01.333, duration_ms=1333, data={name=CodesignSoft, configuration=Debug, clean_build=false}
+timestamp=[2026-02-09 09:54:30], mode=BUILD, duration=0:00:01.058, duration_ms=1058, data={name=CodesignSoft, configuration=Debug, clean_build=false}
+timestamp=[2026-02-09 09:55:25], mode=BUILD, duration=0:00:00.552, duration_ms=552, data={name=CodesignSoft, configuration=Debug, clean_build=false}
+timestamp=[2026-02-09 09:55:28], mode=BUILD, duration=0:00:02.413, duration_ms=2413, data={name=CodesignSoft_system, configuration=Debug, clean_build=false}
+timestamp=[2026-02-09 09:55:34], mode=BUILD, duration=0:00:00.559, duration_ms=559, data={name=CodesignSoft, configuration=Debug, clean_build=false}
+timestamp=[2026-02-09 09:57:48], mode=BUILD, duration=0:00:00.179, duration_ms=179, data={name=CodesignSoft, configuration=Debug, clean_build=true}
+timestamp=[2026-02-09 09:57:50], mode=BUILD, duration=0:00:01.879, duration_ms=1879, data={name=CodesignSoft, configuration=Debug, clean_build=false}
+timestamp=[2026-02-09 09:57:59], mode=BUILD, duration=0:00:00.367, duration_ms=367, data={name=CodesignSoft, configuration=Debug, clean_build=false}
+timestamp=[2026-02-09 09:58:15], mode=BUILD, duration=0:00:00.431, duration_ms=431, data={name=CodesignSoft, configuration=Debug, clean_build=false}
+timestamp=[2026-02-09 09:58:20], mode=BUILD, duration=0:00:05.449, duration_ms=5449, data={name=CodesignSoft_system, configuration=Debug, clean_build=false}
+timestamp=[2026-02-09 09:58:33], mode=BUILD, duration=0:00:00.420, duration_ms=420, data={name=CodesignSoft, configuration=Debug, clean_build=false}
+timestamp=[2026-02-09 09:58:38], mode=BUILD, duration=0:00:04.938, duration_ms=4938, data={name=CodesignSoft_system, configuration=Debug, clean_build=false}
+timestamp=[2026-02-09 10:05:52], mode=BUILD, duration=0:00:00.495, duration_ms=495, data={name=CodesignSoft, configuration=Debug, clean_build=false}
+timestamp=[2026-02-09 10:05:57], mode=BUILD, duration=0:00:05.121, duration_ms=5121, data={name=CodesignSoft_system, configuration=Debug, clean_build=false}
+timestamp=[2026-02-09 10:11:13], mode=BUILD, duration=0:00:01.011, duration_ms=1011, data={name=CodesignSoft, configuration=Debug, clean_build=false}
+timestamp=[2026-02-09 10:11:19], mode=BUILD, duration=0:00:05.057, duration_ms=5057, data={name=CodesignSoft_system, configuration=Debug, clean_build=false}
+timestamp=[2026-02-09 10:18:06], mode=BUILD, duration=0:00:00.550, duration_ms=550, data={name=CodesignSoft, configuration=Debug, clean_build=false}
+timestamp=[2026-02-09 10:18:11], mode=BUILD, duration=0:00:04.925, duration_ms=4925, data={name=CodesignSoft_system, configuration=Debug, clean_build=false}
+timestamp=[2026-02-09 10:27:30], mode=BUILD, duration=0:00:00.574, duration_ms=574, data={name=CodesignSoft, configuration=Debug, clean_build=false}
+timestamp=[2026-02-09 10:27:36], mode=BUILD, duration=0:00:05.128, duration_ms=5128, data={name=CodesignSoft_system, configuration=Debug, clean_build=false}
+timestamp=[2026-02-09 10:32:19], mode=BUILD, duration=0:00:00.943, duration_ms=943, data={name=CodesignSoft, configuration=Debug, clean_build=false}
+timestamp=[2026-02-09 10:32:23], mode=BUILD, duration=0:00:00.360, duration_ms=360, data={name=CodesignSoft, configuration=Debug, clean_build=false}
+timestamp=[2026-02-09 10:32:28], mode=BUILD, duration=0:00:04.885, duration_ms=4885, data={name=CodesignSoft_system, configuration=Debug, clean_build=false}
+timestamp=[2026-02-09 10:59:40], mode=WORKBENCH_START, duration=0:00:13.779, duration_ms=13779, data={}
+timestamp=[2026-02-09 10:59:42], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.242, duration_ms=242, data={}
+timestamp=[2026-02-09 10:59:42], mode=WORKBENCH_UI_INIT, duration=0:00:01.618, duration_ms=1618, data={editors_count=6, platform_editors_count=1, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=CodesignSoft,CodesignSoft_system,RemoteSystemsTempFiles,design1_adrien}
+timestamp=[2026-02-09 11:01:12], mode=BUILD, duration=0:00:00.819, duration_ms=819, data={name=CodesignSoft, configuration=Debug, clean_build=false}
+timestamp=[2026-02-09 11:01:16], mode=BUILD, duration=0:00:03.675, duration_ms=3675, data={name=CodesignSoft_system, configuration=Debug, clean_build=false}
+timestamp=[2026-02-09 11:04:00], mode=BUILD, duration=0:00:01.439, duration_ms=1439, data={name=CodesignSoft, configuration=Debug, clean_build=false}
+timestamp=[2026-02-09 11:04:05], mode=BUILD, duration=0:00:04.874, duration_ms=4874, data={name=CodesignSoft_system, configuration=Debug, clean_build=false}
+timestamp=[2026-02-09 11:05:34], mode=BUILD, duration=0:00:00.953, duration_ms=953, data={name=CodesignSoft, configuration=Debug, clean_build=false}
+timestamp=[2026-02-09 11:05:39], mode=BUILD, duration=0:00:04.803, duration_ms=4803, data={name=CodesignSoft_system, configuration=Debug, clean_build=false}
+timestamp=[2026-02-09 12:17:56], mode=WORKBENCH_START, duration=0:00:07.073, duration_ms=7073, data={}
+timestamp=[2026-02-09 12:17:57], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.148, duration_ms=148, data={}
+timestamp=[2026-02-09 12:17:57], mode=WORKBENCH_UI_INIT, duration=0:00:00.895, duration_ms=895, data={editors_count=8, platform_editors_count=1, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=CodesignSoft,CodesignSoft_system,RemoteSystemsTempFiles,design1_adrien}
+timestamp=[2026-02-09 12:22:14], mode=BUILD, duration=0:00:00.840, duration_ms=840, data={name=CodesignSoft, configuration=Debug, clean_build=false}
+timestamp=[2026-02-09 12:30:55], mode=WORKBENCH_START, duration=0:00:07.007, duration_ms=7007, data={}
+timestamp=[2026-02-09 12:30:55], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.175, duration_ms=175, data={}
+timestamp=[2026-02-09 12:30:55], mode=WORKBENCH_UI_INIT, duration=0:00:00.865, duration_ms=865, data={editors_count=8, platform_editors_count=1, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=CodesignSoft,CodesignSoft_system,RemoteSystemsTempFiles,design1_adrien}
+timestamp=[2026-02-09 23:10:42], mode=WORKBENCH_START, duration=0:00:10.017, duration_ms=10017, data={}
+timestamp=[2026-02-09 23:10:42], mode=WORKBENCH_UI_INIT, duration=0:00:00.808, duration_ms=808, data={editors_count=8, platform_editors_count=1, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=CodesignSoft,CodesignSoft_system,RemoteSystemsTempFiles,design1_adrien}
+timestamp=[2026-02-09 23:10:48], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:05.925, duration_ms=5925, data={}
+timestamp=[2026-02-09 23:11:25], mode=PLATFORM_GENERATION, duration=0:00:18.269, duration_ms=18269, data={name=design1_adrien}
+timestamp=[2026-02-09 23:11:29], mode=BUILD, duration=0:00:01.915, duration_ms=1915, data={name=CodesignSoft, configuration=Debug, clean_build=false}
+timestamp=[2026-02-09 23:11:30], mode=BUILD, duration=0:00:00.954, duration_ms=954, data={name=CodesignSoft, configuration=Debug, clean_build=false}
+timestamp=[2026-02-09 23:13:55], mode=PLATFORM_GENERATION, duration=0:00:02.049, duration_ms=2049, data={name=design1_adrien}
+timestamp=[2026-02-09 23:14:14], mode=PLATFORM_GENERATION, duration=0:00:05.910, duration_ms=5910, data={name=design1_adrien}
+timestamp=[2026-02-09 23:14:41], mode=PLATFORM_GENERATION, duration=0:00:15.269, duration_ms=15269, data={name=design1_adrien}
+timestamp=[2026-02-09 23:15:21], mode=BUILD, duration=0:00:01.081, duration_ms=1081, data={name=CodesignSoft, configuration=Debug, clean_build=false}

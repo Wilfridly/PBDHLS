@@ -24,7 +24,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='D:/M2_SESI/PBDHLS/CoDesign/CoDesign.runs/synth_1'
+HD_PWD='D:/MASTER_SESI/M2/PBDHLS/CoDesign/CoDesign.runs/synth_1'
 cd "$HD_PWD"
 
 HD_LOG=runme.log

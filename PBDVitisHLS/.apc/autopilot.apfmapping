@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<autopilotfilemapping:AutoPilotFileMapping xmlns:autopilotfilemapping="www.autoesl.com/autopilotfilemapping">
+  <source>
+    <originFiles name="layers.c" path="D:\MASTER_SESI\M2\PBDTemp\sourced\layers.c"/>
+    <originFiles name="layers.h" path="D:\MASTER_SESI\M2\PBDTemp\sourced\layers.h"/>
+    <originFiles name="lw1.h" path="D:\MASTER_SESI\M2\PBDTemp\sourced\lw1.h"/>
+    <originFiles name="lw2.h" path="D:\MASTER_SESI\M2\PBDTemp\sourced\lw2.h"/>
+    <originFiles name="lw3.h" path="D:\MASTER_SESI\M2\PBDTemp\sourced\lw3.h"/>
+    <originFiles name="lw4.h" path="D:\MASTER_SESI\M2\PBDTemp\sourced\lw4.h"/>
+  </source>
+  <testbench>
+    <originFiles name="testbench.c" path="D:\MASTER_SESI\M2\PBDTemp\sourced\testbench.c"/>
+  </testbench>
+</autopilotfilemapping:AutoPilotFileMapping>
